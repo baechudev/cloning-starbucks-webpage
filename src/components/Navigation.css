@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0 20px;
   font-size: 1.4rem;
+
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 /* change the background color */
