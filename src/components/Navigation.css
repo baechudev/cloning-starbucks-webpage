@@ -1,0 +1,24 @@
+.navigation {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 1.4rem;
+}
+
+/* change the background color */
+.navbar-custom {
+  background-color: white;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #000000;
+}
+/* change the link color */
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:active {
+  color: #ffffff;
+}
+
+.mainLogo {
+  width: 51px;
+  height: auto;
+}
