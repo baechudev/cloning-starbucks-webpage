@@ -1,13 +1,23 @@
 .App {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   max-width: 100%;
   margin: auto;
 }
 
-.contents-main {
-  width: 80%;
+.main {
+  width: 90%;
   margin: auto;
   text-align: center;
+}
+
+.additionalExp a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.additionalExp a:hover {
+  color: #000000;
+  text-decoration: none;
 }

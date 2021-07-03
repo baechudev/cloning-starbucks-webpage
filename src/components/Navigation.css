@@ -1,7 +1,8 @@
 .navigation {
   margin: 0;
   padding: 0 20px;
-  font-size: 1.4rem;
+  font-size: 15px;
+  font-weight: 700;
 
   border-style: solid;
   border-color: grey;
@@ -20,9 +21,8 @@
   color: #000000;
 }
 /* change the link color */
-.navbar-custom .nav-link:hover,
-.navbar-custom .nav-link:active {
-  color: #ffffff;
+.navbar-custom .nav-link:hover {
+  color: green;
 }
 
 .mainLogo {

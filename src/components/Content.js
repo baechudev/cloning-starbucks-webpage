@@ -5,7 +5,13 @@ import "./Content.css";
 
 function Content(props) {
   return (
-    <div className="content-main" style={{ flexDirection: props.direction }}>
+    <div
+      className="content-main"
+      style={{
+        flexDirection: props.direction,
+        backgroundColor: props.bgcolor,
+      }}
+    >
       <div className="textbox">
         <h1>{props.title}</h1>
         <p>{props.line}</p>

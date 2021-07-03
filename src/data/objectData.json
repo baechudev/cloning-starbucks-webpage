@@ -3,24 +3,28 @@
     "line": "Join now to start earning Rewards.*",
     "button": "Join now",
     "img": "https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-71056.png",
-    "direction": "row"
+    "direction": "row",
+    "bgcolor": "#f1f8f6"
 },{
     "title": "HAPPY PLACE FOUND",
     "line": "Nothing says summer like our Frappuccino® drinks. Treat yourself to the new Strawberry Funnel Cake, Mocha Cookie Crumble or Caramel Ribbon Crunch.",
     "button": "Order Frappuccino drink",
     "img": "https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-72039.jpg",
-    "direction": "row"
+    "direction": "row",
+    "bgcolor": "#f2f0eb"
 },{
     "title": "DELIGHTFULLY CHILL",
     "line": "Refresh your day with the bright, tropical flavours of our Star Drink and Kiwi Starfruit Starbucks Refreshers® beverage.",
     "button": "Order iced beverage",
     "img": "https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-72037.jpg",
-    "direction": "row-reverse"
+    "direction": "row-reverse",
+    "bgcolor": "#f2f0eb"
 },{
     "title": "Floating into summer like…",
     "line": "Keep the laid-back vibes going. Order Starbucks drinks on Uber Eats.**",
     "button": "Order now",
     "img": "https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-72041.jpg",
-    "direction": "row-reverse"
+    "direction": "row-reverse",
+    "bgcolor": "#d4e9e2"
 }
 ]

@@ -11,7 +11,7 @@ function App() {
       <div className="navi-main">
         <Navigation />
       </div>
-      <div className="contents-main">
+      <div className="main">
         {objectData.map((data) => (
           <Content
             title={data.title}
@@ -19,12 +19,13 @@ function App() {
             button={data.button}
             img={data.img}
             direction={data.direction}
+            bgcolor={data.bgcolor}
           />
         ))}
         <div className="additionalExp">
           <p>
-            *At participating stores. Some restrictions apply. See
-            starbucks.ca/rewards.
+            *At participating stores. Some restrictions apply. See&nbsp;
+            <a href="starbucks.ca/rewards">starbucks.ca/rewards</a>.
           </p>
           <p>
             **Menu limited. Restricted delivery area. Available in participating
