@@ -6,10 +6,16 @@
   margin: auto;
 }
 
-.main {
+.main,
+.bottom-navi,
+.last-info {
   width: 90%;
   margin: auto;
   text-align: center;
+}
+
+.additionalExp {
+  margin: 20px;
 }
 
 .additionalExp a {
@@ -20,4 +26,18 @@
 .additionalExp a:hover {
   color: #000000;
   text-decoration: none;
+}
+
+.border-contents-top-navi {
+  margin: 0 0 40px 0;
+  border: none;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.border-contents {
+  margin: 40px 0;
+  border: none;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
 }

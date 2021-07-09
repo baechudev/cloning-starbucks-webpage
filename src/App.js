@@ -2,6 +2,8 @@ import "./App.css";
 
 import Navigation from "./components/Navigation";
 import Content from "./components/Content";
+import BottomNavigation from "./components/BottomNavigation";
+import BottomInfo from "./components/BottomInfo";
 
 import objectData from "./data/objectData.json";
 
@@ -11,6 +13,7 @@ function App() {
       <div className="navi-main">
         <Navigation />
       </div>
+      <hr className="border-contents-top-navi" />
       <div className="main">
         {objectData.map((data) => (
           <Content
@@ -27,13 +30,15 @@ function App() {
             *At participating stores. Some restrictions apply. See&nbsp;
             <a href="starbucks.ca/rewards">starbucks.ca/rewards</a>.
           </p>
-          <p>
-            **Menu limited. Restricted delivery area. Available in participating
-            locations only. Fees subject to change. Prices for Starbucks® items
-            purchased through Uber Eats may be higher than posted in stores or
-            as marked. See the Uber Eats app for details.
-          </p>
         </div>
+      </div>
+      <hr className="border-contents" />
+      <div className="bottom-navi">
+        <BottomNavigation />
+      </div>
+      <hr className="border-contents" />
+      <div className="last-info">
+        <BottomInfo />
       </div>
     </div>
   );

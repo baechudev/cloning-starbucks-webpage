@@ -1,0 +1,36 @@
+.bottom-info {
+  margin: 0;
+}
+
+.icons-info-navi {
+  display: flex;
+  flex-direction: row;
+}
+
+.policy-info-navi {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icons-info-navi li {
+  margin: 0;
+  padding: 0 20px 0 0;
+}
+
+.policy-info-navi li {
+  margin: 0;
+  padding: 0 20px 0 0;
+}
+
+.policy-info-navi li span {
+  padding: 0 20px 0 0;
+}
+
+.copy-right p {
+  text-align: left;
+}
