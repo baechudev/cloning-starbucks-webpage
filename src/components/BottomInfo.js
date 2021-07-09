@@ -1,8 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./BottomInfo.css";
 
-import faceBook from "../img/fb.png";
-
 function BottomInfo() {
   return (
     <div className="bottom-info">

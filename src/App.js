@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Content from "./components/Content";
 import BottomNavigation from "./components/BottomNavigation";
 import BottomInfo from "./components/BottomInfo";
+import TopNavigation from "./components/TopNavigation";
 
 import objectData from "./data/objectData.json";
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <div className="navi-main">
-        <Navigation />
+        <TopNavigation />
       </div>
       <hr className="border-contents-top-navi" />
       <div className="main">
