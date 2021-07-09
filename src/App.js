@@ -35,8 +35,8 @@ function App() {
       <hr className="border-contents" />
       <div className="bottom-navi">
         <BottomNavigation />
+        <hr className="border-contents" />
       </div>
-      <hr className="border-contents" />
       <div className="last-info">
         <BottomInfo />
       </div>
