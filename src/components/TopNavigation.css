@@ -1,9 +1,10 @@
 .navi-top {
   display: flex;
   justify-content: space-between;
-  margin: 5px 0 0 0;
   padding: 0 25px;
   background: #ffffff;
+  margin: 5px auto 0 auto;
+  width: 80%;
 }
 
 .navi-top a {
@@ -59,6 +60,36 @@
 
 .navi-right-list li {
   padding: 10px 15px;
+}
+
+#findStore {
+  display: flex;
+  flex-direction: row;
+}
+
+button#signin {
+  padding: 5px 15px;
+  background-color: white;
+  border-radius: 20px;
+  font-weight: 700;
+  border: 1px solid #000000;
+}
+
+button#joinnow {
+  padding: 5px 15px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  border: 1px solid #000000;
+}
+
+button#signin:hover {
+  background-color: #f0ebeb;
+}
+
+button#joinnow:hover {
+  background-color: #35303f;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,7 +1,5 @@
 import "./TopNavigation.css";
 
-import mainLogo from "../img/logo.png";
-
 function TopNavigation() {
   return (
     <div className="navi-top">
@@ -35,16 +33,18 @@ function TopNavigation() {
       </div>
 
       <ul className="navi-right-list">
-        <li>
+        <li id="findStore">
           <a href="https://www.starbucks.ca/store-locator">Find a store</a>
         </li>
         <li>
           <a href="https://www.starbucks.ca/account/signin?ReturnUrl=%2F">
-            Sign In
+            <button id="signin">Sign in</button>
           </a>
         </li>
         <li>
-          <a href="https://www.starbucks.ca/account/create">Join Now</a>
+          <a href="https://www.starbucks.ca/account/create">
+            <button id="joinnow">Join now</button>
+          </a>
         </li>
       </ul>
     </div>

@@ -4,6 +4,11 @@
   flex-direction: row;
 }
 
+div.content-main {
+  margin: auto;
+  width: 80%;
+}
+
 .content-main div {
   width: 50%;
 }
@@ -20,11 +25,21 @@
   align-items: center;
 }
 
-.imgbox {
-}
-
 .imgbox img {
   max-width: 100%;
   object-fit: cover;
   box-sizing: border-box;
+}
+
+button#contentClick {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+button#contentClick:hover {
+  background-color: #edeff6 !important;
 }

@@ -1,6 +1,8 @@
 .bottom-info {
   margin: 0;
   font-size: 0.9rem;
+  margin: 0px auto;
+  width: 80%;
 }
 
 /* icons info */
