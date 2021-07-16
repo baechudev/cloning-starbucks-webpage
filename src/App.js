@@ -1,6 +1,5 @@
 import "./App.css";
 
-import Navigation from "./components/Navigation";
 import Content from "./components/Content";
 import BottomNavigation from "./components/BottomNavigation";
 import BottomInfo from "./components/BottomInfo";
