@@ -1,3 +1,4 @@
+/* navi-top (a whole of part) */
 .navi-top {
   display: flex;
   justify-content: space-between;
@@ -19,12 +20,7 @@
   color: #006341;
 }
 
-/*navi-logo + navi-left-list*/
-.navi-left {
-  display: flex;
-}
-
-/*navi-logo*/
+/* navi-logo */
 .navi-logo {
   width: 85px;
   height: 85px;
@@ -36,7 +32,11 @@
   height: 100%;
 }
 
-/*navi-left bar*/
+/* navi-left */
+.navi-left {
+  display: flex;
+}
+
 .navi-left-list {
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@
   padding: 10px 15px;
 }
 
-/*navi-right bar*/
+/* navi-right */
 .navi-right-list {
   display: flex;
   align-items: center;
@@ -75,6 +75,10 @@ button#signin {
   border: 1px solid #000000;
 }
 
+button#signin:hover {
+  background-color: #f0ebeb;
+}
+
 button#joinnow {
   padding: 5px 15px;
   background-color: black;
@@ -84,32 +88,6 @@ button#joinnow {
   border: 1px solid #000000;
 }
 
-button#signin:hover {
-  background-color: #f0ebeb;
-}
-
 button#joinnow:hover {
   background-color: #35303f;
-}
-
-@media screen and (max-width: 768px) {
-  .navi-top {
-    flex-direction: column;
-  }
-
-  .navi-left {
-    flex-direction: column;
-  }
-
-  .navi-left-list li,
-  .navi-right-list li {
-    width: 100%;
-  }
-
-  .navi-left-list {
-    flex-direction: column;
-  }
-  .navi-right-list {
-    flex-direction: column;
-  }
 }

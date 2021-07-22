@@ -34,7 +34,9 @@ function TopNavigation() {
 
       <ul className="navi-right-list">
         <li id="findStore">
-          <a href="https://www.starbucks.ca/store-locator">Find a store</a>
+          <a href="https://www.starbucks.ca/store-locator">
+            <i className="fas fa-map-marker-alt"></i>&nbsp;Find a store
+          </a>
         </li>
         <li>
           <a href="https://www.starbucks.ca/account/signin?ReturnUrl=%2F">

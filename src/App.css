@@ -1,3 +1,4 @@
+/* App (a whole of part) */
 .App {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
@@ -12,6 +13,7 @@
   text-align: center;
 }
 
+/* additionalExp */
 .additionalExp {
   margin: 20px;
 }
@@ -26,15 +28,17 @@
   text-decoration: none;
 }
 
-.border-contents-top-navi {
-  margin: 10px 0 20px 0;
+/* border */
+
+.border-contents {
+  margin: 40px 0;
   border: none;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.border-contents {
-  margin: 40px 0;
+.border-contents-top-navi {
+  margin: 10px 0 20px 0;
   border: none;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.1);

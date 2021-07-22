@@ -1,3 +1,4 @@
+/* navi-bottom (a whole of part) */
 .navi-bottom {
   text-align: left;
   display: flex;
@@ -6,17 +7,9 @@
   width: 80%;
 }
 
+/* navi-bottom-item */
 .navi-bottom-item {
   margin: 0 30px 0 0;
-}
-
-.navi-bottom-item ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.navi-bottom-item {
   width: 15%;
 }
 
@@ -25,17 +18,23 @@
   font-weight: 600;
 }
 
-.navi-bottom-item li {
-  margin: 10px 0 0 0;
-  padding: 8px 0 0 0;
-}
-
 .navi-bottom-item a {
   color: grey;
   font-size: 0.9rem;
 }
 
-a:hover {
+.navi-bottom-item ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navi-bottom-item li {
+  margin: 10px 0 0 0;
+  padding: 8px 0 0 0;
+}
+
+.navi-bottom-item a:hover {
   color: black;
   text-decoration: none;
 }

@@ -32,8 +32,4 @@ function Content(props) {
   );
 }
 
-Content.defaultProps = {
-  direction: "row",
-};
-
 export default Content;

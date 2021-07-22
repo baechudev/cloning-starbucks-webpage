@@ -1,3 +1,4 @@
+/* bottom-info (a whole of part) */
 .bottom-info {
   margin: 0;
   font-size: 0.9rem;
@@ -14,14 +15,6 @@
 .icons-info-navi li {
   margin: 0 20px 20px 0;
   padding: 0;
-
-  /*
-  width: 32px;
-  height: 32px;
-  background: #196f3d;
-  border-radius: 50%;
-  text-align: center;
-  */
 }
 
 .icons svg {
@@ -59,7 +52,7 @@
   padding: 0 20px 0 0;
 }
 
-/* very bottom info */
+/* Copy right info */
 .bottom-info ul {
   list-style-type: none;
   padding: 0;
