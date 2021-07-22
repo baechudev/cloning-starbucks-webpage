@@ -4,13 +4,9 @@
 
 ![image](./readmeImg/readmeImage.png)
 
-<br/>
-
 ## About The Project
 
 This is my first cloning webpage constructed using React.js. In this project, I cloned the main page of Starbucks with the thought of assembling Lego blocks called a component in React.js.
-
-<br/>
 
 ## What to be focused on during the project
 
@@ -19,16 +15,12 @@ This is my first cloning webpage constructed using React.js. In this project, I 
 - Third, I kept on looking for something that could be split into another component.
 - Lastly, I sought to copy everything up to the smallest thing in order to make users unable to tell it apart which one is real.
 
-<br/>
-
 ## Features
 
 - Mapped objects in a JSON file to compose the main view with a variety of contents.
 - Applied separate CSS style on main views by passing props from a parent component into a child component.
 - Divided the layout into 4 components for managing each part separately.
 - Applied proper CSS effects, such as hovering, for having them emphasized.
-
-<br/>
 
 ## Getting Started
 
