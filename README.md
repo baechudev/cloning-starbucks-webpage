@@ -1,1 +1,1 @@
-![Alt text](/readmeImg/readmeImg.jpg?raw=true "Optional Title")
+![Alt text](/readmeImg/readmeImg.png?raw=true "Optional Title")
